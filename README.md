@@ -44,7 +44,7 @@ This project involved analyzing home sales data using SparkSQL, focusing on crea
 
 10.  The formatted home sales data was partitioned based on the "date_built" using the `partitionBy().parquet()` method.  After writing the DataFrame to Parquet format, the runtime for queries on partitioned data was about 0.100 seconds.
 
-    ![partitioned data.](https://github.com/Zenalawrence/Home_Sales/blob/main/Readme_IMAGES/partitioned_data.png) 
+    ![partitioned data results.](https://github.com/Zenalawrence/Home_Sales/blob/main/Readme_IMAGES/partitioned_data.png) 
 
 ## Conclusion
 This project successfully demonstrated the use of SparkSQL for querying and analyzing home sales data. The system's performance was optimized using caching and partitioning techniques. 
